@@ -25,7 +25,7 @@ end)
 local Animation = Window:NewTab("Animation")
 local AnimationSection = Animation:NewSection("Animation")
 
-AnimationSection:NewButton("Animation Gui", function(bool)
+AnimationSection:NewButton("Animation", "Animation", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Kphta/anima/main/freeeee"))()
 end)
 
