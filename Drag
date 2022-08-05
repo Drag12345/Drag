@@ -22,63 +22,9 @@ MainSection:NewKeybind("Turn On/Off", "KeybindInfo", Enum.KeyCode.E, function()
     Library:ToggleUI()
 end)
 
-local Animation = Window:NewTab("Animations")
+local Animation = Window:NewTab("Animation")
 AnimationSection:NewButton("Animation Gui", function(bool)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Kphta/anima/main/freeeee"))()
-end)
-
-
-local Weapons = TpsTab:AddFolder("Weapons")
-WeaponsSection:NewButton("Revolver", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-638.75, 18.8500004, -118.175011, -1, 0, 0, 0, 1, 0, 0, 0, -1)
-end)
- 
-WeaponsSection:NewButton("Ak", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-587.529358, 5.39480686, -753.717712, -1, 0, 0, 0, 1, 0, 0, 0, -1)
-end)
-
-WeaponsSection:NewButton("Smg", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-577.123413, 5.47666788, -718.031433, -1, 0, 0, 0, 1, 0, 0, 0, -1)
-end)
-
-WeaponsSection:NewButton("Aug", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-273.048187, 49.3634033, -213.312408, -1, 0, 0, 0, 1, -8.63220121e-05, -0, -8.63220121e-05, -1)
-end)
-
-WeaponsSection:NewButton("AR", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-591.824158, 5.46046877, -744.731628, 0, 0, 1, 0, 1, -0, -1, 0, 0)
-end)
- 
-WeaponsSection:NewButton("Double Barrel", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1039.59985, 18.8513641, -256.449951, -1, 0, 0, 0, 1, 0, 0, 0, -1)
-end)
-
-WeaponsSection:NewButton("Shotgun", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-578.623657, 5.47212696, -725.131531, 0, 0, 1, 0, 1, -0, -1, 0, 0)
-end)
- 
-WeaponsSection:NewButton("Flame Thrower", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-157.122437, 50.9120102, -104.93145, 1, 0, 0, 0, 1, 0, 0, 0, 1)
-end)
- 
-WeaponsSection:NewButton("Tactical Shotgun", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(470.877533, 45.1272316, -620.630676, 1, 0, 0, 0, 1, 0, 0, 0, 1)
-end)
- 
-WeaponsSection:NewButton("Church", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(147.299988, 18.8493252, 31.7999744, 0, 0, 1, 0, 1, -0, -1, 0, 0)
-end)
- 
-WeaponsSection:NewButton("Admin Guns", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-872.853516, -34.4276848, -538.013306, -0.999724388, -3.9898886e-08, -0.0234765243, -3.9204977e-08, 1, -3.00177518e-08, 0.0234765243, -2.90890814e-08, -0.999724388)
-end)
- 
-WeaponsSection:NewButton("Admin Guns 2", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-808.708557, -39.6492004, -932.789368, 0.999899805, 2.01343173e-08, -0.0141554065, -2.17800533e-08, 1, -1.16108232e-07, 0.0141554065, 1.16404912e-07, 0.999899805)
-end)
- 
-WeaponsSection:NewButton("Admin Food", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-788.053406, -39.6492004, -932.951233, 0.998369277, 2.46515359e-08, 0.0570784509, -2.8773524e-08, 1, 7.13949646e-08, -0.0570784509, -7.29209759e-08, 0.998369277)
 end)
 
 
