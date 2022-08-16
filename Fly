@@ -1,6 +1,6 @@
 --Roblox Fly
 --Made by Crip#4649
---Press F to fly!
+--Press X to fly!
 --it req some time till you very very fast
 
 repeat wait() 
@@ -55,7 +55,7 @@ bv:Destroy()
 plr.Character.Humanoid.PlatformStand = false 
 end 
 mouse.KeyDown:connect(function(key) 
-if key:lower() == "f" then 
+if key:lower() == "x" then 
 if flying then flying = false 
 else 
 flying = true 
